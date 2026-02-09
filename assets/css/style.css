@@ -1,0 +1,71 @@
+main {
+  /* seleziono il contenuto principale */
+  max-width: 800px; /* larghezza massima */
+  margin-inline: auto; /* centro orizzontalmente */
+  font-family: "Roboto Slab", serif; /* imposto il font */
+  font-optical-sizing: auto; /* ottimizza il font (se supportato) */
+  font-weight: normal; /* peso normale */
+  font-style: normal; /* stile normale */
+}
+
+header {
+  /* seleziono l’header */
+  text-align: center; /* centro il testo */
+  margin-bottom: 2rem; /* spazio sotto */
+}
+
+.intro {
+  /* seleziono la sezione intro */
+  text-align: center; /* centro il testo */
+  margin-bottom: 2rem; /* spazio sotto */
+}
+
+.focaccia {
+  /* seleziono il paragrafo focaccia */
+  text-align: left; /* allineo a sinistra */
+}
+
+.featured {
+  /* seleziono il box featured */
+  text-align: left; /* allineo a sinistra */
+  color: chocolate; /* colore del testo */
+  border-left: 1px solid #f5db93; /* bordo a sinistra */
+}
+
+.featured p {
+  /* seleziono i p dentro featured */
+  margin-bottom: 0%; /* tolgo spazio sotto */
+}
+
+.ingredients {
+  /* seleziono testo ingredients */
+  font-weight: bold; /* testo in grassetto */
+}
+
+ul li {
+  /* seleziono tutti i li nelle ul */
+  margin-bottom: 25px; /* spazio sotto ogni li */
+}
+
+.featured a {
+  /* seleziono i link dentro featured */
+  color: blue; /* colore del link */
+}
+
+header {
+  /* ridefinisco header */
+  text-align: center; /* centro il testo */
+  margin: 0; /* tolgo tutti i margini */
+}
+
+header p {
+  /* seleziono i p dentro header */
+  margin-top: 25px; /* spazio sopra */
+  background-color: #fdfbf1; /* sfondo chiaro */
+  border-top: 1px solid #f5db93; /* bordo sopra */
+}
+
+header p {
+  /* ridefinisco header p */
+  padding-top: 15px; /* spazio interno sopra */
+}
